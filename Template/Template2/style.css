@@ -1,0 +1,97 @@
+body{
+    background: url(Image/ima2.jpg) no-repeat center center fixed;     no-repeat center center fixed;
+    background-size:cover;
+    font-family: sans-serif;
+}
+
+/*main content of the webPage*/
+
+.contanier{
+  width:40%;
+  margin-left:35% ;  
+  overflow: hidden;
+  padding: 1rem;
+  background-image:linear-gradient(to right,#002080,#99b3ff);
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 7%;
+}
+
+/*for Horizontal line*/
+
+hr{
+    width: 80%;
+
+}
+
+
+.bt1{
+    padding: 0.5rem 2rem;
+    color: #fff;
+    background-color: #426782;
+    border: none;
+    border-radius: 5px;
+}
+
+.contanier .bt1{
+    width: 35%;
+    padding: 0.5rem 2rem;
+    color: #fff;
+    background-color: #426782;
+    border: none;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color:white
+}
+
+/*for Input*/
+
+.contanier input{
+    pad: 0.5rem;
+    width: 70%;
+
+}
+/*for adjusting the width of checkbox*/
+
+.contanier input[type=checkbox]{
+    width: auto;
+}
+
+/*sign up button at the end*/
+
+.bt2{
+    padding: 1rem;
+    background-color: #2ecc71;
+    font-size: 1rem;
+    width: 50%;
+    border-radius: 7px;
+    border: none;
+}
+.bt2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.bt2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.bt2:hover span {
+    padding-right: 25px;
+  }
+  
+.bt2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+/*END*/

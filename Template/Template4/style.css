@@ -1,0 +1,121 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #dfebf3;
+    background: url(Image/im3.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.contanier{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background-color: #fff;
+    padding: 18px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    padding: 12px;
+    list-style-type: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: fantasy;
+    font-size: 1.3rem;
+}
+
+header h1{
+    margin-top: 7px;
+}
+
+.head{
+    float: left;
+}
+
+nav{
+    float: right;
+    margin-top: 0;
+}
+
+showcase h2{
+    text-align: center;
+    color: #fff;
+    font-size: 2.7rem;
+    margin-top: 13%;
+}
+
+showcase p{
+    text-align: center;
+    color: #fff;
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+.btn1{
+    margin-left: 35%;
+    padding: 0.7rem;
+    color: #fff;
+    background-color: #4267b2;
+    border: none;
+    border-radius: 1.2rem;
+    margin-top: 2%;
+}
+
+.btn2{
+    padding: 0.7rem;
+    color: #000000;
+    background-color: transparent;
+    width: auto;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 1.2rem;
+}
+
+footer{
+    background-color: #fff;
+    padding: 0.7rem;
+    margin-top: 31.7%;
+    font-family: cursive;
+}
+
+.lefty{
+    float: left;
+    width: 20%;
+}
+
+.righty{
+    float: right;
+    width: 80%;
+    margin-top: 2%;
+}
+
+.righty input{
+    margin-left: 0.3rem ;
+    margin-right: 2rem;
+    font-size: 1rem;
+    width: 250px;
+}
+
+.btn3{
+    padding: 7px 12px;
+    color: #fff;
+    background-color:#01a185;
+    margin-top: 2%;
+    border: none;
+    margin-left: 2%;
+    text-decoration: none;
+    font-family: cursive;
+}
+
