@@ -1,121 +1,99 @@
-
 body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background-color: #dfebf3;
-    background: url(Image/im3.jpg) no-repeat center center fixed;
+    background: url(Image/im1.jpg) no-repeat center center fixed;
     background-size: cover;
+    font-family: sans-serif;
 }
-.contanier{
-    width: 80%;
+
+header{
+    width: 90%;
     margin: auto;
     overflow: hidden;
 }
 
-header{
-    background-color: #fff;
-    padding: 18px;
-}
-
-nav ul{
-    margin: 0;
-    padding: 0;
-}
-
-nav li{
-    display: inline;
-    padding: 12px;
-    list-style-type: none;
-}
-
-nav li a{
-    text-decoration: none;
-    color: #000000;
-    font-family: fantasy;
-    font-size: 1.3rem;
-}
-
-header h1{
-    margin-top: 7px;
-}
-
 .head{
+    color: #fff;
+    font-size: 0.8rem;
+    word-spacing: 0.7rem;
     float: left;
 }
 
 nav{
     float: right;
-    margin-top: 0;
 }
 
-showcase h2{
-    text-align: center;
+ul{
+    border-left: 3px solid coral;
+}
+
+li{
+    display: inline;
+    padding-right: 1.7rem;
+}
+
+li a{
     color: #fff;
-    font-size: 2.7rem;
-    margin-top: 13%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.test4{
+    background-color: #e82986;
+    padding: 0.5rem 1rem;
+    border-radius: 1.3rem;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 5rem;
+}
+
+showcase h1{
+    font-size: 4rem;
+    color:#fff;
+    margin-bottom: 0;
+}
+
+showcase h3{
+    font-size: 2rem;
+    color:#fff;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
 }
 
 showcase p{
-    text-align: center;
     color: #fff;
     font-family: cursive;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
-.btn1{
-    margin-left: 35%;
-    padding: 0.7rem;
-    color: #fff;
-    background-color: #4267b2;
-    border: none;
-    border-radius: 1.2rem;
-    margin-top: 2%;
-}
-
-.btn2{
-    padding: 0.7rem;
-    color: #000000;
+a button{
     background-color: transparent;
-    width: auto;
-    margin-left: 2%;
-    margin-top: 2%;
-    border-radius: 1.2rem;
-}
-
-footer{
-    background-color: #fff;
-    padding: 0.7rem;
-    margin-top: 31.7%;
-    font-family: cursive;
-}
-
-.lefty{
-    float: left;
-    width: 20%;
-}
-
-.righty{
-    float: right;
-    width: 80%;
-    margin-top: 2%;
-}
-
-.righty input{
-    margin-left: 0.3rem ;
-    margin-right: 2rem;
-    font-size: 1rem;
-    width: 250px;
-}
-
-.btn3{
-    padding: 7px 12px;
     color: #fff;
-    background-color:#01a185;
-    margin-top: 2%;
-    border: none;
-    margin-left: 2%;
-    text-decoration: none;
-    font-family: cursive;
+    border: 2xpx solid #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 1.3rem;
+    margin-top: 1.2rem;
 }
 
+aside{
+    width: 90%;
+    margin: auto;
+    color:#fff;
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.price{
+    color: gold;
+    font-size: 3rem;
+    padding-left: 0.7rem;
+}
+
+.btn{
+    background-color: #e44236;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
