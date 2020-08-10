@@ -16,8 +16,8 @@ body{
 }
 
 .todo{
-    width: 459px;
-    height: 498px;
+    width: 470px;
+    height: 503px;
     margin-left:450px ;
     margin-top: 80px;
     background-color: #fff;
@@ -43,7 +43,7 @@ span{
 .desc{
     margin-top: -29.56px;
     height: 87%;
-    margin-top: -40px;
+    margin-left: -40px;
 
 }
 
@@ -65,7 +65,7 @@ input[type="checkbox"]:checked+label{
 }
 
 .list li{
-    float: right;
+    float: left;
     width: 100%;
 }
 

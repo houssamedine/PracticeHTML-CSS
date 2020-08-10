@@ -1,0 +1,84 @@
+<!-- Types JAVASCRIPT-->
+----------------------------
+<!-- 1.Number
+     2.String Toujours avec "" ou ''
+
+        "hello " + "there"
+             "hello there"
+        'this ins\'t very nice'
+            "this ins't very nice"-->
+
+<!-- 
+ 3.Boolean
+ 4.Undefined
+ 5.Null
+ 6.Symbol {new in ECMAScript 6
+ 7.Object -->
+
+
+<!--JAVASCRIPT COMPARISONS-->
+----------------------------
+<!-- 
+ !==
+ ===
+ <=
+ >=
+ <
+ >
+ -->
+
+
+ <!--JAVASCRIPT VARIABLES-->
+----------------------------
+ <!-- Var 
+
+    1.declaration:
+        
+        var ger = "my name is"+"!"
+
+    2.affichage:
+        
+        ger
+
+        "my name is!"
+    
+    3.Pour une question:
+        
+        prompt("what is your name!!!!")
+        
+        "houssam"
+
+    4.comparison:
+        var first =prompt("enter first number");
+        var second =prompt("enter second number");
+
+        first<second
+        true 
+
+    5.covert: (String to Number)
+
+        Number(first)
+        5 
+    
+    6.
+        first+second
+        "56"
+
+        Number(first) +Number(second)
+        11
+
+    7.
+    var first =prompt("enter first number");
+    var second =prompt("enter second number");
+    var sum = Number(first) + Number(second);
+    alert("The sum is "+sum);
+
+
+    -->
+
+ <!--left {new in ECMAScript 6}-->
+ <!--const {New in ECMAScript}-->
+
+
+ <!--JAVASCRIPT CONDITIONALS-->
+ ----------------------------
