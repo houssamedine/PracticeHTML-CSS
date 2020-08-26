@@ -82,3 +82,29 @@
 
  <!--JAVASCRIPT CONDITIONALS-->
  ----------------------------
+ 
+var name="bili"
+if (name === "bilal"){
+    alert("hi bilal")
+}else if (name="bili"){
+    alert("hi bili");
+}else{
+    alert("i dont knoow you")
+}
+
+ <!--JAVASCRIPT LOGICAL OPERATORS-->
+ ----------------------------
+ && And 
+
+	firstName="Houssam";
+		"Houssam"
+	lastName="Elazhari";
+		"Elazhari"
+	if (firstName === "Houssam" && lastName === "Elazhari"){
+			alert("hi Houssam you are in the good direction");
+	}else{
+			alert("I don't know You!!!!!")}
+ 
+ || Or
+ !	diferent
+ 

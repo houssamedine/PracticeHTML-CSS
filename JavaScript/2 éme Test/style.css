@@ -1,0 +1,101 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #BF5C48;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #cc6600;
+}
+
+.hed1{
+    float: left;
+    margin-left: 5%;
+    font-size:2rem;
+    color:#fff;
+    font-family: 'Times New Roman';
+    font-weight: 400;
+}
+
+nav{
+    float: right;
+    margin-right: 5%;
+    margin-top: 10px;
+}
+
+nav li{
+    display: inline;
+    padding: 1.5rem; 
+}
+
+nav li a{
+    color: #fff;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    font-weight: 300;
+}
+
+nav li a:hover{
+    color: #ccffff;
+    border-bottom: 2px solid gold;
+    font-size: 1rem;
+    padding: 10px 0;
+    transition: all 0.5s ease-out;
+    text-decoration: none;
+}
+
+.showi img{
+    width: 100%;
+    height: 33rem;
+}
+
+.catalog{
+margin:5rem 5rem;
+display: flex;
+justify-content: space-between;
+text-align: center;   
+}
+
+.box{
+    padding: 0.7rem;
+}
+
+.box .btn{
+    background-color: #cc6600;
+    padding: 5px;
+    margin: 10px;
+    border: solid;
+    border-radius: 8px;
+    margin-left: 2%;
+    width: 200px;
+    
+}
+
+.box .btn:hover{
+    margin-top:10px;
+    background-color:#e44236;
+    color:#000;
+    font-size: 1.2rem;
+    
+}
+
+.im1{
+    width: 200px;
+    border-radius:10px;
+    transition: all 1s;
+}
+
+.im1:hover{
+    transform: scale(1.1);
+}
+
+
+footer{
+    background-color: whitesmoke;
+    color: #000;
+    text-align: center;
+    padding: 1rem;
+
+}
